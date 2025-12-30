@@ -52,7 +52,7 @@ This is the minimum setup. Read the feature sections below to find out how to en
 
 # Usage
 
-**Note:** When you start Play Mode, an Assets/Resources/BMGSettings.asset file will be created if it does not already exist. This houses all of the settings used by these utilities. To learn more about the settings read .
+**Note:** When you start Play Mode, an Assets/Resources/BMGSettings.asset file will be created if it does not already exist. This houses all of the settings used by these utilities. To edit these settings, use toolbar `BMG->Settings`.
 
 There are a variety of [features](./documentation/Features.md) available for use.
 
