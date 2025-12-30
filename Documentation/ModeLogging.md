@@ -3,7 +3,6 @@
 Mode logging will enable the logging of when modes are started/added and stopped/removed. 
 
 ## Usage
----
 **IMPORTANT:** You must ensure that you pass the p3 object to the init method in the constructor of your BaseGameMode override class:
 
 ```csharp
@@ -19,11 +18,10 @@ public class MyBaseGameMode : BaseGameMode
 ```
 
 To use, you must open the settings from this toolbar menu: `BMG->Settings`. Then under `Modes/Logging`, check "Enabled" .
-![[.\Media\EnableModeLogging.png]]
+![image](./Media/EnableModeLogging.png)
 
 ## Basics
----
-![[.\Media\ModeLoggingExample.png]]
+![image](./Media/ModeLoggingExample.png)
 
 Since these are logging through `UnityEngine.Debug.Log`, you will also see them in the console window. When starting/adding a mode results in starting/adding another mode, you will see the next mode indented with "  └>" (configurable). Each subsequent mode added will result in more spaced padding before "└>".
 
