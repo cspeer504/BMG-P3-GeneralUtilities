@@ -10,7 +10,7 @@ Features Include:
 
 1. Event Viewer - Editor Window to track what posts events and what listens to them.
 2. Mode Viewer - Editor Window to track what modes have been started and which are currently active.
-3. Backbox Overlay - Backbox debug overlay showing these event and mode details on the cabinet!
+3. Backbox Overlay - Backbox debug overlay showing these event and mode details on the cabinet! [Showcased on YouTube!](https://www.youtube.com/watch?v=MIPSBPOfZwk)
 
 
 
