@@ -1,7 +1,5 @@
 # Introduction
 
-----
-
 BMG P3 GeneralUtilities are a collection of Unity assets to aid in [P3 game development](https://www.multimorphic.com/p3-pinball-platform/3rd-party-developers/) in the [Unity game engine](https://unity.com/).
 
 <mark>NOTE:</mark> These are <u>debug</u> utilities. Reflection and other non-efficient tactics are used to provide features as plug-n-play as possible. Please take precautions to not inlude them in release candidate builds. 
@@ -21,8 +19,6 @@ For general troubleshooting / support, you can [Email Me]cspeer504@gmail.com). Y
 If you have found a bug, you are also welcome to create an issue on the [github page]https://github.com/cspeer504/BMG-P3-GeneralUtilities), or a pull request if you have a fix / extension.
 
 ## Installation and Setups
-
----
 
 ### Prerequisites
 
@@ -53,8 +49,6 @@ You can install BMG P3 General Utilities using any of the following methods:
 This is the minimum setup. Read the feature sections below to find out how to enable additional features.
 
 # Usage
-
-----
 
 **Note:** When you start Play Mode, an Assets/Resources/BMGSettings.asset file will be created if it does not already exist. This houses all of the settings used by these utilities. To learn more about the settings read .
 
