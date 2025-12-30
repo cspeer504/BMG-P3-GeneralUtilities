@@ -1,0 +1,18 @@
+{
+  "name": "com.bluemountaingames.bmgp3utilities",
+  "version": "1.0.0",
+  "displayName": "BMG P3 Utilities",
+  "description": "A collection of Unity assets to aid in P3 game development in the Unity game engine.",
+  "unity": "5.6.7f1",
+  "documentationUrl": "https://github.com/cspeer504/BMG-P3-GeneralUtilities/blob/main/README.md",
+  "changelogUrl": "https://github.com/cspeer504/BMG-P3-GeneralUtilities/blob/main/changelog.md",
+  "licensesUrl": "https://github.com/cspeer504/BMG-P3-GeneralUtilities/blob/main/LICENSE",
+  "keywords": [
+     "P3"
+   ],
+   "author": {
+     "name": "Blue Mountain Games LLC",
+     "email": "cspeer504@gmail.com",
+     "url": "https://blue-mountain-games.square.site/"
+   }
+}
