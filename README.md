@@ -27,9 +27,11 @@ If you have found a bug, you are also welcome to create an issue on the [github 
 
 You can install BMG P3 General Utilities using any of the following methods:
 
-1. __Install Source__
+1. __Import Asset Package__
    
-   * TODO test
+   * Download the latest `.unitypackage` file here: [![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/cspeer504/BMG-P3-GeneralUtilities)](https://github.com/cspeer504/BMG-P3-GeneralUtilities/releases/latest)
+   * In Unity, Select Toolbar menu item `Assets->Import Package->Custom Package`.
+   * Select **Import**.
 
 2. __Initialize__  
    These utilities require an initialization call for it to set up in preperation to perform. Place this line inside the class that derives BaseGameMode:
