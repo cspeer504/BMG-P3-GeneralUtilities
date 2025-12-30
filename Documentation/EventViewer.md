@@ -4,8 +4,6 @@ This is a dockable Editor Window that will keep track of posted events so you ca
 
 ## Usage
 
----
-
 **IMPORTANT:** You must ensure that you pass the p3 object to the init method in the constructor of your BaseGameMode override class:
 
 ```csharp
@@ -45,21 +43,21 @@ Events posted are shown in blue (configurable) and events handled are shown in g
 
 ---
 
-![](.\Media\EventViewer-GeneralExample.png)
+![image](./Media/EventViewer-GeneralExample.png)
 
 
 
 **Events Posted (label)**
-    A count of how many events have been posted since the clearing of the repository that listens for them. Note that lines with green (configurable) font represent events <u>handled</u> and do not count towards events <u>posted</u>. (i.e. That event was already counted as "posted" before it was handled.)
+- A count of how many events have been posted since the clearing of the repository that listens for them. Note that lines with green (configurable) font represent events <u>handled</u> and do not count towards events <u>posted</u>. (i.e. That event was already counted as "posted" before it was handled.)
 
 **Tail (Button)**
-	When pressed, the window will keep scrolling down to the last event posted. Depress to allow free manual scrolling.
+- When pressed, the window will keep scrolling down to the last event posted. Depress to allow free manual scrolling.
 
 **Clear Repository (Button)**
-	When pressed, this will clear the repository of posted events tracked by this utility. It will start back at 0 events and clear the window as it awaits for new events to track.
+- When pressed, this will clear the repository of posted events tracked by this utility. It will start back at 0 events and clear the window as it awaits for new events to track.
 
 **Highlight (Text Box)**
-	Entering text in here will highlight lines yellow (configurable) that contain this string. This does NOT use Regular Expression, it simply uses [string.IndexOf]([String.IndexOf Method (System) | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/System.String.IndexOf?view=netframework-2.0)).
+- Entering text in here will highlight lines yellow (configurable) that contain this string. This does NOT use Regular Expression, it simply uses [string.IndexOf](https://learn.microsoft.com/en-us/dotnet/api/System.String.IndexOf?view=netframework-2.0).
 
 ### Configuration
 
