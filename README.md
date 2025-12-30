@@ -33,7 +33,7 @@ You can install BMG P3 General Utilities using any of the following methods:
 
 1. __Install Source__
    
-   * TODO
+   * TODO test
 
 2. __Initialize__  
    These utilities require an initialization call for it to set up in preperation to perform. Place this line inside the class that derives BaseGameMode:
