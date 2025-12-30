@@ -4,8 +4,6 @@ This is a dockable Editor Window that will keep track of posted events so you ca
 
 ## Usage
 
----
-
 **IMPORTANT:** You must ensure that you pass the p3 object to the init method in the constructor of your BaseGameMode override class:
 
 ```csharp
@@ -24,8 +22,6 @@ To open, use this toolbar menu: `BMG->Mode Viewer`
 
 ## Basics
 
----
-
 As modes are started/added (in Play Mode), you will see them added to the list of modes in this window. Modes are shown with this format:
 
 `<Name>_<Priority>`
@@ -37,16 +33,12 @@ Modes that have been started/added are shown in blue (configurable) and modes th
 
 ## GUI
 
----
-
- ![](.\Media\ModeViewer-GeneralExample.png)
+ ![image](./Media/ModeViewer-GeneralExample.png)
 
 **Highlight (Text Box)**
     Entering text in here will highlight lines yellow (configurable) that contain this string. This does NOT use RegEx, it simply uses [string.IndexOf](https://learn.microsoft.com/en-us/dotnet/api/System.String.IndexOf?view=netframework-2.0).
 
 ## Configuration
-
----
 
 You can configure some features of the Event Viewer window through the BMG Settings. Toolbar: `BMG->Settings`
 
