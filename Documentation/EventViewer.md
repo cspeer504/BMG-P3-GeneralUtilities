@@ -2,6 +2,8 @@
 
 This is a dockable Editor Window that will keep track of posted events so you can see what classes post events and what classes handle those events.
 
+> Shoutout to [Clempo2's P3 Tech Tips](https://clempo2.github.io/P3TechTips/Events.html) showing clever ways of getting insight on events.
+
 ## Usage
 
 **IMPORTANT:** You must ensure that you pass the p3 object to the init method in the constructor of your BaseGameMode override class:
